@@ -193,6 +193,7 @@ footer {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  opacity: 0.5;
 }
 
 /* Container around content */
@@ -239,6 +240,7 @@ footer {
   border: medium solid #A7B8BF;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #A7B8BF;
+  opacity: 0.5;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -253,6 +255,7 @@ footer {
   border: medium solid #A7B8BF;
   border-width: 10px 10px 10px 0;
   border-color: transparent #A7B8BF transparent transparent;
+  opacity: 0.5;
 }
 
 /* Fix the circle for containers on the right side */
@@ -263,9 +266,10 @@ footer {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #A7B8BF;
+  border: 5px solid #A7B8BF;
   position: relative;
   border-radius: 6px;
+  opacity: 0.5;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
